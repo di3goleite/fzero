@@ -35,7 +35,7 @@ function bisection(f, a, b, err, max_its)
         printf("err: %d\n", err);
         printf("\n");
 
-        if(it == 19)
+        if(e <= err)
             break;
         endif
     endwhile
